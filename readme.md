@@ -1,6 +1,6 @@
 # 依赖：
-  Python3.6
-  pip install socket
+  1. Python3.6
+  2. pip install socket
 
 # 用法：
   1. 先运行receiver.py程序。
@@ -9,15 +9,15 @@
   4. 修改sender目录下的messages.txt文件内容（ASCII码字符），可以多次测试得到相应的正确测试结果。
 
 # 项目文件
-  receiver.py 消息接收端程序
-  sender.py   消息发送端程序
-  des.py      实现的des算法
-  rsa.py      实现的rsa算法
-  sha1.py     实现的sha-1算法
+  1. receiver.py 消息接收端程序
+  2. sender.py   消息发送端程序
+  3. des.py      实现的des算法
+  4. rsa.py      实现的rsa算法
+  5. sha1.py     实现的sha-1算法
     
-  receiver/            接收端随机生成的RSA公钥和私钥文件（默认为25位16进制数），用于消息加密和数字签名
-  sender/des_key.txt   对称加密密钥，用于加密明文文件
-  sender/messages.txt  发送端发送的明文文件
+  6. receiver/            接收端随机生成的RSA公钥和私钥文件（默认为25位16进制数），用于消息加密和数字签名
+  7. sender/des_key.txt   对称加密密钥，用于加密明文文件
+  8. sender/messages.txt  发送端发送的明文文件
   
 # 实现原理
   1. 消息接收端和发送端建立连接，生成连接确认信息
